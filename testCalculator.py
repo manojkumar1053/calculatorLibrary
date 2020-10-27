@@ -1,5 +1,5 @@
-from calculatorLibrary import calculator
 import calculator
+from calculatorLibrary import calculator
 
 
 class TestCalculator:
@@ -9,3 +9,6 @@ class TestCalculator:
 
     def test_substraction(self):
         assert 2 == calculator.subtract(4, 2)
+
+    def test_substraction2(self):
+        assert 100 == calculator.subtract(101, 1)
