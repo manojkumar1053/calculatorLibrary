@@ -1,4 +1,5 @@
 from calculatorLibrary import calculator
+import calculator
 
 
 class TestCalculator:
